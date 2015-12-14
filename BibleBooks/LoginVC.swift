@@ -53,6 +53,8 @@ class LoginVC: UIViewController
                     // Do stuff after successful login.
                     PhoneCore.currentUser = user
                     print("successfully logged in")
+                    let vc = self.storyboard?.instantiateViewControllerWithIdentifier("homepage") as! UserHomepageVC
+                    self.presentViewController(vc, animated: true, completion: nil)
                 }
                 else
                 {

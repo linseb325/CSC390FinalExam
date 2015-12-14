@@ -11,5 +11,6 @@ import Parse
  
 class PhoneCore: NSObject
 {
-    static var currentUser:PFUser!
+    static var rowData = [PFObject]()
+    static var currentUser: PFUser!
 }

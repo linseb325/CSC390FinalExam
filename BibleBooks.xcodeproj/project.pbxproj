@@ -18,13 +18,18 @@
 		B88DCBC01C1F184C00553071 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88DCBBE1C1F184C00553071 /* Interface.storyboard */; };
 		B88DCBC21C1F184C00553071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88DCBC11C1F184C00553071 /* Assets.xcassets */; };
 		B88DCBC91C1F184C00553071 /* BibleBooks WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B88DCBC81C1F184C00553071 /* BibleBooks WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B88DCBD01C1F184C00553071 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88DCBCF1C1F184C00553071 /* InterfaceController.swift */; };
 		B88DCBD21C1F184C00553071 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88DCBD11C1F184C00553071 /* ExtensionDelegate.swift */; };
 		B88DCBD41C1F184C00553071 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88DCBD31C1F184C00553071 /* NotificationController.swift */; };
 		B88DCBD61C1F184C00553071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88DCBD51C1F184C00553071 /* Assets.xcassets */; };
 		B88DCBF11C1F1D9E00553071 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88DCBEF1C1F1D9E00553071 /* LoginVC.swift */; };
 		B88DCBF21C1F1D9E00553071 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88DCBF01C1F1D9E00553071 /* RegisterVC.swift */; };
 		B88DCBF41C1F1E8400553071 /* PhoneCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88DCBF31C1F1E8400553071 /* PhoneCore.swift */; };
+		C8F31B771C1F4FB6009C5B91 /* UserHomepageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F31B761C1F4FB6009C5B91 /* UserHomepageVC.swift */; };
+		C8F31B791C1F5111009C5B91 /* Screen2IC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F31B781C1F5111009C5B91 /* Screen2IC.swift */; };
+		C8F31B7B1C1F514D009C5B91 /* Screen1IC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F31B7A1C1F514D009C5B91 /* Screen1IC.swift */; };
+		C8F31B7D1C1F5180009C5B91 /* WatchCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F31B7C1C1F5180009C5B91 /* WatchCore.swift */; };
+		C8F31B7F1C1F56CB009C5B91 /* tableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F31B7E1C1F56CB009C5B91 /* tableRow.swift */; };
+		C8F31B811C1F62E0009C5B91 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F31B801C1F62E0009C5B91 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +109,6 @@
 		B88DCBC31C1F184C00553071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B88DCBC81C1F184C00553071 /* BibleBooks WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BibleBooks WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88DCBCE1C1F184C00553071 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		B88DCBCF1C1F184C00553071 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		B88DCBD11C1F184C00553071 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		B88DCBD31C1F184C00553071 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		B88DCBD51C1F184C00553071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,6 +116,12 @@
 		B88DCBEF1C1F1D9E00553071 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B88DCBF01C1F1D9E00553071 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		B88DCBF31C1F1E8400553071 /* PhoneCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCore.swift; sourceTree = "<group>"; };
+		C8F31B761C1F4FB6009C5B91 /* UserHomepageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHomepageVC.swift; sourceTree = "<group>"; };
+		C8F31B781C1F5111009C5B91 /* Screen2IC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen2IC.swift; sourceTree = "<group>"; };
+		C8F31B7A1C1F514D009C5B91 /* Screen1IC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen1IC.swift; sourceTree = "<group>"; };
+		C8F31B7C1C1F5180009C5B91 /* WatchCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchCore.swift; sourceTree = "<group>"; };
+		C8F31B7E1C1F56CB009C5B91 /* tableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableRow.swift; sourceTree = "<group>"; };
+		C8F31B801C1F62E0009C5B91 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		FED0D19C7EF397E98D96660B /* Pods-BibleBooks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibleBooks.release.xcconfig"; path = "Pods/Target Support Files/Pods-BibleBooks/Pods-BibleBooks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,8 +207,10 @@
 				B88DCBEF1C1F1D9E00553071 /* LoginVC.swift */,
 				B88DCBF01C1F1D9E00553071 /* RegisterVC.swift */,
 				B88DCB941C1F184C00553071 /* AppDelegate.swift */,
+				C8F31B761C1F4FB6009C5B91 /* UserHomepageVC.swift */,
 				B88DCB981C1F184C00553071 /* Main.storyboard */,
 				B88DCB9B1C1F184C00553071 /* Assets.xcassets */,
+				C8F31B801C1F62E0009C5B91 /* TableViewCell.swift */,
 				B88DCB9D1C1F184C00553071 /* LaunchScreen.storyboard */,
 				B88DCBA01C1F184C00553071 /* Info.plist */,
 				B88DCBF31C1F1E8400553071 /* PhoneCore.swift */,
@@ -237,7 +249,10 @@
 		B88DCBCC1C1F184C00553071 /* BibleBooks WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				B88DCBCF1C1F184C00553071 /* InterfaceController.swift */,
+				C8F31B7C1C1F5180009C5B91 /* WatchCore.swift */,
+				C8F31B7A1C1F514D009C5B91 /* Screen1IC.swift */,
+				C8F31B781C1F5111009C5B91 /* Screen2IC.swift */,
+				C8F31B7E1C1F56CB009C5B91 /* tableRow.swift */,
 				B88DCBD11C1F184C00553071 /* ExtensionDelegate.swift */,
 				B88DCBD31C1F184C00553071 /* NotificationController.swift */,
 				B88DCBD51C1F184C00553071 /* Assets.xcassets */,
@@ -498,8 +513,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F31B771C1F4FB6009C5B91 /* UserHomepageVC.swift in Sources */,
 				B88DCBF21C1F1D9E00553071 /* RegisterVC.swift in Sources */,
 				B88DCBF41C1F1E8400553071 /* PhoneCore.swift in Sources */,
+				C8F31B811C1F62E0009C5B91 /* TableViewCell.swift in Sources */,
 				B88DCB951C1F184C00553071 /* AppDelegate.swift in Sources */,
 				B88DCBF11C1F1D9E00553071 /* LoginVC.swift in Sources */,
 			);
@@ -525,9 +542,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F31B791C1F5111009C5B91 /* Screen2IC.swift in Sources */,
+				C8F31B7F1C1F56CB009C5B91 /* tableRow.swift in Sources */,
 				B88DCBD41C1F184C00553071 /* NotificationController.swift in Sources */,
 				B88DCBD21C1F184C00553071 /* ExtensionDelegate.swift in Sources */,
-				B88DCBD01C1F184C00553071 /* InterfaceController.swift in Sources */,
+				C8F31B7B1C1F514D009C5B91 /* Screen1IC.swift in Sources */,
+				C8F31B7D1C1F5180009C5B91 /* WatchCore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

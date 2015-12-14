@@ -29,8 +29,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         //replace this line with the Parse for your project and add me
         //as a collaborator to your project.  My parse email is: mike@awesomefat.com
         //PLEASE PUT YOUR NAME IN YOUR PARSE APP NAME SO I CAN TELL THEM APART!!!!!
-        Parse.setApplicationId("PtakhW1p21G5LJoEHFbadloIWlcZufM6Hct4lVhr",
-            clientKey: "o87aeJ0j0SbGjXPfhC8aET464mq5vspMv832ZLWh")
+        Parse.setApplicationId("JHUj7ZeaJwwndYI0iteiIlns1vRugjlc6ElljbjU",
+            clientKey: "uKblnZlN2ZNRWiuJUnvgDrmD28nEXQvDjiSVUf7N")
         
         return true
     }
